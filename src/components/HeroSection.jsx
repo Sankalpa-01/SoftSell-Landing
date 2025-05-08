@@ -12,17 +12,17 @@ const HeroSection = () => {
         <motion.div
           className="absolute bg-purple-300 dark:bg-purple-700 opacity-30 rounded-full w-72 h-72 top-10 left-10 mix-blend-multiply filter blur-2xl"
           animate={{ scale: [1, 1.2, 1], x: [0, 20, 0], y: [0, 20, 0] }}
-          transition={{ duration: 8, repeat: Infinity }}
+          transition={{ duration: 4, repeat: Infinity }}
         />
         <motion.div
           className="absolute bg-teal-300 dark:bg-teal-600 opacity-30 rounded-full w-72 h-72 top-40 left-40 mix-blend-multiply filter blur-2xl"
           animate={{ scale: [1, 1.1, 1], x: [0, -20, 0], y: [0, -20, 0] }}
-          transition={{ duration: 10, repeat: Infinity }}
+          transition={{ duration: 4, repeat: Infinity }}
         />
         <motion.div
           className="absolute bg-sky-300 dark:bg-sky-700 opacity-30 rounded-full w-72 h-72 top-64 left-80 mix-blend-multiply filter blur-2xl"
           animate={{ scale: [1, 1.3, 1], x: [0, 15, 0], y: [0, 15, 0] }}
-          transition={{ duration: 12, repeat: Infinity }}
+          transition={{ duration: 4, repeat: Infinity }}
         />
       </div>
 

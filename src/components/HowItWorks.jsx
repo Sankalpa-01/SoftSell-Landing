@@ -38,7 +38,7 @@ const HowItWorks = () => {
             whileHover={{ scale: 1.05 }}
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 20 }}
-            transition={{ duration: 0.6, delay: index * 0.2 }}
+            transition={{ duration: 0.4, delay: index * 0.2 }}
           >
             <div className="mb-4">{step.icon}</div>
             <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-white">

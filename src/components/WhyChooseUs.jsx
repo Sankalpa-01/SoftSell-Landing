@@ -46,7 +46,7 @@ const WhyChooseUs = () => {
             whileHover={{ scale: 1.05 }}
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 20 }}
-            transition={{ duration: 0.5, delay: i * 0.2 }}
+            transition={{ duration: 0.2, delay: i * 0.2 }}
           >
             <div className="flex-shrink-0">{item.icon}</div>
             <div className="text-left">

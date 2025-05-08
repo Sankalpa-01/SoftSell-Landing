@@ -33,7 +33,7 @@ const Testimonials = () => {
             whileHover={{ scale: 1.05 }}
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 20 }}
-            transition={{ duration: 0.5, delay: i * 0.2 }}
+            transition={{ duration: 0.3, delay: i * 0.2 }}
           >
             <p className="text-gray-700 dark:text-gray-300 italic mb-4">“{r.feedback}”</p>
             <p className="font-semibold text-indigo-800 dark:text-indigo-400">{r.name}</p>
