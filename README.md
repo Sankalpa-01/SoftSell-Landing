@@ -89,3 +89,6 @@ To run the project locally:
 5. Visit `http://localhost:3000` to see the project live on your local machine.
 
 
+## DEPLOYMENT LINK
+
+https://softselllanding.vercel.app/
